@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#F1F1F1; cursor:default;}
+
+#wrapper{width:1000px; height:; margin:0 auto; background:#FFF;}
+
+#header{width:1000px; height:150px; background:url(../images/header/headerBg.png) repeat-x;}
+
+#logo{width:382px; height:94px; padding:51px 0 0 0; float:left;  margin:0 0 0 20px;}
+#logo img{width:382px; height:94px;}
+
+#skinks{float:right; margin:108px 20px 0 0;}
+#skinks img{width:35px; height:35px;}
+#skinks a{text-decoration:none;}
+
+#slider{width:1000px; height:256px;}
+#slider img{width:1000px; height:256px;}
+
+#menu{width:1000px; height:78px; background:url(../images/menu/menuBG.png) repeat-x;}
+#menu ul{background:url(../images/menu/menuBG.png) repeat-x;}
+#menu ul li{ width:166px; height:78px; float:left; text-align:center; line-height:39px; background:url(../images/menu/menu_seperator.png) no-repeat right;}
+#menu ul li:last-child{background:0;}
+#menu ul li a{text-decoration:none; color:#333333; font-family:Tahoma, Geneva, sans-serif; font-size:17px;}
+#menu ul li:hover a, #menu ul li:first-child a{color:#B60003;}
+#menu ul li a span{font-family:Verdana, Geneva, sans-serif; font-size:13px;}
+#menu ul li:hover a span,#menu ul li:first-child a span{color:#FDA500;}
+
+#blocks{width:960px; height:306px; padding:20px;}
+.block{width:306px; height:330px; background:url(../images/blocks/block2_BG.png) no-repeat; float:left; margin-right:21px;}
+.block:first-child{background:url(../images/blocks/block1_BG.png) no-repeat;}
+.block:last-child{background:url(../images/blocks/block1_BG.png) no-repeat; margin:0;}
+.block h1{ font-family:Tahoma, Geneva, sans-serif; font-size:17px; text-align:center; line-height:54px; height:54px; color:#DCDCCF;}
+.block img{width:306px; height:160px;}
+.block p{color: #424242; font-family:Tahoma, Geneva, sans-serif; text-align:left; margin:5px; font-weight:bold;}
+.block a{float: right; color: #b60003; font-weight: bold; font-size: 12px; margin:5px;}
+
+#contents{width:960px; padding:30px 20px;}
+
+#who{width:634px; margin:0 20px 0 0; float:left;}
+#who img{width:382px; height:94px; float:left;}
+#who h1{float:right; margin-top: 74px; font-family: Tahoma, Geneva, sans-serif; font-size: 17px; color: #b60003;}
+#who h2{font-size: 16px; color: red; text-align: center; clear:both; padding-top:15px;}
+#who p{text-align: justify; clear: both; font-family: Tahoma, Geneva, sans-serif; font-size: 13px; color: #000; line-height: 170%;}
+#who span{color:#ff0000; font-size:14px;}
+#who a{float: right; color: #b60003; font-weight: bold; font-size: 12px; margin: 5px; }
+
+#send{width:266px; height:385px; background:url(../images/form/FormBG.png) no-repeat; float:right; text-align:center; margin:10px 0 0 0; padding:10px 20px;}
+#send h1{font-family: Tahoma, Geneva, sans-serif; font-size: 17px; color: #b60003; margin: 10px 0 20px 0;}
+#send .nam{width:246px; height:16px; background:url(../images/form/inputBG.png) no-repeat; border:0; padding:10px; text-align:center;margin:5px 0;}
+#send textarea{width:246px; height:55px; border:0; padding:35px 10px 0; resize:none; background:url(../images/form/textareaBG.png) no-repeat; text-align:center; margin:5px 0;}
+#send img{width:100px; height:36px; float:left; margin:5px 0;}
+#send #cpt{width:100px; height:16px; border:0; padding:10px; float:right; background:url(../images/form/captchaBG.png) no-repeat; margin:5px 0;}
+#send input[type="submit"]{width:99px; height:36px; border:0; background:url(../images/form/buttonBG.png) no-repeat; margin:5px 0;}
+
+#exhibitions{ width:960px; padding:0 20px; text-align:center; margin:30px 0 0 0;}
+#exhibitions #ex_img{width:142px; height:33px; margin:20px 0 0 0;}
+.exhibition{float:left; width:193px; height:120px; margin:5px 62px 5px 0;}
+#exhibitions .exhibition img{width:193px; height:71px; margin-bottom:10px;}
+.exhibition a{text-decoration:none;}
+.exhibition h1 {font-family: Tahoma, Geneva, sans-serif; font-size: 15px; color: #b60003;}
+.exhibition:hover{background:#ffc77c; border-radius: 10px;}
+
+#footer{width: 1000px; font-family: Tahoma, Geneva, sans-serif; font-size: 15px; color:#6d6c6c; text-align:center; padding: 10px 0;}
+
+#footer a{color:#551A8B; font-weight:bold;}
+.clr{clear:both;}
